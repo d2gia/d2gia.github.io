@@ -1,12 +1,12 @@
 {
 	"title": "Awesome Python",
 	"description": "List of Curated and most popular Python libraries.",
-	"categories": [{
+	"children": [{
 		"title": "Popular Libraries",
-		"categories": [{
+		"children": [{
 			"title": "Admin Panels",
 			"description": "Libraries for administrative interfaces.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/ajenti/ajenti",
 				"name": "ajenti",
 				"description": "Ajenti Core and stock plugins"
@@ -38,7 +38,7 @@
 		}, {
 			"title": "Algorithms and Design Patterns",
 			"description": "Python implementation of algorithms and design patterns.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/keon/algorithms",
 				"name":"algorithms",
 				"description":"Minimal examples of data structures and algorithms in Python"
@@ -58,7 +58,7 @@
 		}, {
 			"title": "Anti-spam",
 			"description": "Libraries for fighting spam.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/mbi/django-simple-captcha",
 				"name": "django-simple-captcha",
 				"description": "Django Simple Captcha is an extremely simple, yet highly customizable Django application to add captcha images to any Django form."
@@ -70,7 +70,7 @@
 		}, {
 			"title": "Asset Management",
 			"description": "Tools for managing, compressing and minifying website assets.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/django-compressor/django-compressor",
 				"name": "django-compressor",
 				"description":"Compresses linked and inline javascript or CSS into a single cached file."
@@ -106,7 +106,7 @@
 		}, {
 			"title": "Audio",
 			"description": "Libraries for manipulating audio.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/danilobellini/audiolazy",
 				"name":"audiolazy",
 				"description":"Expressive Digital Signal Processing (DSP) package for Python"
@@ -174,9 +174,9 @@
 		}, {
 			"title": "Authentication",
 			"description": "Libraries for implementing authentications schemes.",
-			"categories": [{
+			"children": [{
 				"title": "OAuth",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/authomatic/authomatic",
 					"name":"authomatic",
 					"description":"Simple yet powerful authorization / authentication client library for Python web applications."
@@ -215,7 +215,7 @@
 				}]
 			}, {
 				"title": "Others",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/demonware/jose",
 					"name":"jose",
 					"description":"Python implementation of the Javascript Object Signing and Encryption (JOSE) framework"
@@ -236,7 +236,7 @@
 		}, {
 			"title": "Build Tools",
 			"description": "Compile software from source code.",
-			"items": [{
+			"children": [{
 				"url": "http://www.yoctoproject.org/docs/1.6/bitbake-user-manual/bitbake-user-manual.html",
 				"name": "BitBake",
 				"description": "A make-like build tool for embedded Linux."
@@ -260,7 +260,7 @@
 		}, {
 			"title": "Built-in Classes Enhancement",
 			"description": "Libraries for enhancing Python built-in classes.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/python-attrs/attrs",
 				"name":"attrs",
 				"description":"Python Classes Without BoilerPlate"
@@ -280,7 +280,7 @@
 		}, {
 			"title": "CMS",
 			"description": "Content Management Systems.",
-			"items": [{
+			"children": [{
 				"url": "https://www.django-cms.org/en/",
 				"name": "django-cms",
 				"description": "An Open source enterprise CMS based on the Django."
@@ -324,7 +324,7 @@
 		}, {
 			"title": "Caching",
 			"description": "Libraries for caching data.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/bbangert/beaker",
 				"name":"beaker",
 				"description":"WSGI middleware for sessions and caching"
@@ -364,7 +364,7 @@
 		}, {
 			"title": "ChatOps Tools",
 			"description": "Libraries for chatbot development.",
-			"items": [{
+			"children": [{
 				"url": "http://errbot.io/en/latest/",
 				"name": "Errbot",
 				"description": "The easiest and most popular chatbot to implement ChatOps."
@@ -372,7 +372,7 @@
 		}, {
 			"title": "Cluster Computing",
 			"description": "Frameworks and libraries for Cluster Computing.",
-			"items": [{
+			"children": [{
 				"url": "https://pypi.python.org/pypi/pyspark/",
 				"name": "PySpark",
 				"description": "[Apache Spark](https://spark.apache.org/) Python API."
@@ -400,9 +400,9 @@
 		}, {
 			"title": "Code Analysis",
 			"description": "Tools of static analysis, linters and code quality checkers. See: [awesome-static-analysis](https://github.com/mre/awesome-static-analysis).",
-			"categories": [{
+			"children": [{
 				"title": "Code Analysis",
-				"items": [{
+				"children": [{
 					"url": "https://pypi.python.org/pypi/flake8",
 					"name": "flake8",
 					"description": "A wrapper around pycodestyle, pyflakes and McCabe."
@@ -433,7 +433,7 @@
 				}]
 			}, {
 				"title": "Static Type Checkers",
-				"items": [{
+				"children": [{
 					"url": "http://mypy-lang.org/",
 					"name": "mypy",
 					"description": "Check variable types during compile time."
@@ -444,7 +444,7 @@
 				}]
 			}, {
 				"title": "Static Type Annotations Generators",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/Instagram/MonkeyType",
 					"name":"MonkeyType",
 					"description":"A system for Python that generates static type annotations by collecting runtime types"
@@ -453,9 +453,9 @@
 		}, {
 			"title": "Command-line Tools",
 			"description": "Libraries for building command-line application.",
-			"categories": [{
+			"children": [{
 				"title": "Command-line Application Development",
-				"items": [{
+				"children": [{
 					"url": "http://builtoncement.com/",
 					"name": "cement",
 					"description": "CLI Application Framework for Python."
@@ -490,7 +490,7 @@
 				}]
 			}, {
 				"title": "Terminal Rendering",
-				"items": [{
+				"children": [{
 					"url": "peterbrittain/asciimatics",
 					"name":"asciimatics",
 					"description":"A cross platform package to do curses-like operations, plus higher level APIs and widgets to create text UIs and ASCII art animations"
@@ -505,7 +505,7 @@
 				}]
 			}, {
 				"title": "Productivity Tools",
-				"items": [{
+				"children": [{
 					"url": "aws/aws-cli",
 					"name":"aws-cli",
 					"description":"Universal Command Line Interface for Amazon Web Services"
@@ -566,7 +566,7 @@
 		}, {
 			"title": "Compatibility",
 			"description": "Libraries for migrating from Python 2 to 3.",
-			"items": [{
+			"children": [{
 				"url": "http://python-future.org/index.html",
 				"name": "Python-Future",
 				"description": "The missing compatibility layer between Python 2 and Python 3."
@@ -582,7 +582,7 @@
 		}, {
 			"title": "Computer Vision",
 			"description": "Libraries for computer vision.",
-			"items": [{
+			"children": [{
 				"url": "http://opencv.org/",
 				"name": "OpenCV",
 				"description": "Open Source Computer Vision Library."
@@ -599,7 +599,7 @@
 		}, {
 			"title": "Concurrency and Parallelism",
 			"description": "Libraries for concurrent and parallel execution",
-			"items": [{
+			"children": [{
 				"url": "https://docs.python.org/3/library/multiprocessing.html",
 				"name": "concurrent.futures",
 				"description": "(Python standard library) Process-based [threading](https://docs.python.org/3/library/threading.html) interface."
@@ -631,7 +631,7 @@
 		}, {
 			"title": "Configuration",
 			"description": "Libraries for storing and parsing configuration options.",
-			"items": [{
+			"children": [{
 				"url": "https://www.red-dove.com/config-doc/",
 				"name": "config",
 				"description": "Hierarchical config from the author of [logging](https://docs.python.org/3/library/logging.html)."
@@ -654,7 +654,7 @@
 			}]
 		}, {
 			"title": "Cryptography",
-			"items": [{
+			"children": [{
 				"url": "https://cryptography.io/en/latest/",
 				"name": "cryptography",
 				"description": "A package designed to expose cryptographic primitives and recipes to Python developers."
@@ -674,7 +674,7 @@
 		}, {
 			"title": "Data Analysis",
 			"description": "Libraries for data analyzing.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/blaze/blaze",
 				"name":"blaze",
 				"description":"NumPy and Pandas interface to Big Data"
@@ -698,7 +698,7 @@
 		}, {
 			"title": "Data Validation",
 			"description": "Libraries for validating data. Used for forms in many cases.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/pyeve/cerberus",
 				"name":"cerberus",
 				"description":"Lightweight, extensible data validation library for Python"
@@ -738,7 +738,7 @@
 		}, {
 			"title": "Data Visualization",
 			"description": "Libraries for visualizing data. See: [awesome-javascript](https://github.com/sorrycc/awesome-javascript#data-visualization).",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/altair-viz/altair",
 				"name":"altair",
 				"description":"Declarative statistical visualization library for Python"
@@ -782,7 +782,7 @@
 		}, {
 			"title": "Database",
 			"description": "Databases implemented in Python.",
-			"items": [{
+			"children": [{
 				"url": "https://pythonhosted.org/pickleDB/",
 				"name": "pickleDB",
 				"description": "A simple and lightweight key-value store for Python."
@@ -798,9 +798,9 @@
 		}, {
 			"title": "Database Drivers",
 			"description": "Libraries for connecting and operating databases.",
-			"categories": [{
+			"children": [{
 				"title": "MySQL",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/PyMySQL/mysqlclient-python",
 					"name":"mysqlclient-python",
 					"description":"MySQL database connector for Python (with Python 3 support)"
@@ -815,7 +815,7 @@
 				}]
 			}, {
 				"title": "PostgreSQL",
-				"items": [{
+				"children": [{
 					"url": "http://initd.org/psycopg/",
 					"name": "psycopg2",
 					"description": "The most popular PostgreSQL adapter for Python."
@@ -830,7 +830,7 @@
 				}]
 			}, {
 				"title": "Other Relational Databases",
-				"items": [{
+				"children": [{
 					"url": "http://rogerbinns.github.io/apsw/",
 					"name": "apsw",
 					"description": "Another Python SQLite wrapper."
@@ -845,7 +845,7 @@
 				}]
 			}, {
 				"title": "NoSQL Databases",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/datastax/python-driver",
 					"name":"python-driver",
 					"description":"DataStax Python Driver for Apache Cassandra"
@@ -872,7 +872,7 @@
 				}]
 			}, {
 				"title": "Asynchronous Clients",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/mongodb/motor",
 					"name":"motor",
 					"description":"Motor - the async Python driver for MongoDB and Tornado or asyncio"
@@ -889,7 +889,7 @@
 		}, {
 			"title": "Date and Time",
 			"description": "Libraries for working with dates and times.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/KoffeinFlummi/Chronyk",
 				"name":"Chronyk",
 				"description":"A Python 3 library for parsing human-written times and dates"
@@ -929,9 +929,9 @@
 		}, {
 			"title": "Debugging Tools",
 			"description": "Libraries for debugging code.",
-			"categories": [{
+			"children": [{
 				"title": "pdb-like Debugger",
-				"items": [{
+				"children": [{
 					"url": "https://pypi.python.org/pypi/ipdb",
 					"name": "ipdb",
 					"description": "IPython-enabled [pdb](https://docs.python.org/3/library/pdb.html)."
@@ -954,7 +954,7 @@
 				}]
 			}, {
 				"title": "Profiler",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/rkern/line_profiler",
 					"name":"line_profiler",
 					"description":"Line-by-line profiling for Python"
@@ -981,7 +981,7 @@
 				}]
 			}, {
 				"title": "Others",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/gruns/icecream",
 					"name":"icecream",
 					"description":"Sweet and creamy print debugging"
@@ -1022,7 +1022,7 @@
 		}, {
 			"title": "Deep Learning",
 			"description": "Frameworks for Neural Networks and Deep Learning.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/BVLC/caffe",
 				"name":"caffe",
 				"description":"Caffe: a fast open framework for deep learning"
@@ -1058,7 +1058,7 @@
 		}, {
 			"title": "DevOps Tools",
 			"description": "Software and libraries for DevOps.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/ansible/ansible",
 				"name":"ansible",
 				"description":"Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. Avoid writing scripts or custom code to deploy and update your applications — automate in a language that approaches plain English, using SSH, with no agents to install on remote systems"
@@ -1110,7 +1110,7 @@
 		}, {
 			"title": "Distribution",
 			"description": "Libraries to create packaged executables for release distribution.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/spotify/dh-virtualenv",
 				"name":"dh-virtualenv",
 				"description":"Python virtualenvs in Debian packages"
@@ -1138,7 +1138,7 @@
 		}, {
 			"title": "Documentation",
 			"description": "Libraries for generating project documentation.",
-			"items": [{
+			"children": [{
 				"url": "http://www.sphinx-doc.org/en/latest/",
 				"name": "Sphinx",
 				"description": "Python Documentation generator."
@@ -1162,7 +1162,7 @@
 		}, {
 			"title": "Downloader",
 			"description": "Libraries for downloading.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/s3tools/s3cmd",
 				"name":"s3cmd",
 				"description":"Official s3cmd repo -- Command line tool for managing Amazon S3 and CloudFront services"
@@ -1182,7 +1182,7 @@
 		}, {
 			"title": "E-commerce",
 			"description": "Frameworks and libraries for e-commerce and payments.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/lxneng/alipay",
 				"name":"alipay",
 				"description":"An Unofficial Alipay API for Python"
@@ -1225,16 +1225,16 @@
 			}]
 		}, {
 			"title": "Editor Plugins and IDEs",
-			"categories": [{
+			"children": [{
 				"title": "Emacs",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/jorgenschaefer/elpy",
 					"name":"elpy",
 					"description":"Emacs Python Development Environment"
 				}]
 			}, {
 				"title": "Sublime Text",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/DamnWidget/anaconda",
 					"name":"anaconda",
 					"description":"Anaconda turns your Sublime Text 3 in a full featured Python development IDE including autocompletion, code linting, IDE features, autopep8 formating, McCabe complexity checker Vagrant and Docker support for Sublime Text 3 using Jedi, PyFlakes, pep8, MyPy, PyLint, pep257 and McCabe that will never freeze your Sublime Text 3"
@@ -1245,7 +1245,7 @@
 				}]
 			}, {
 				"title": "Vim",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/davidhalter/jedi-vim",
 					"name":"jedi-vim",
 					"description":"Using the jedi autocompletion library for VIM"
@@ -1260,14 +1260,14 @@
 				}]
 			}, {
 				"title": "Visual Studio",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/Microsoft/PTVS",
 					"name":"PTVS",
 					"description":"Python Tools for Visual Studio"
 				}]
 			}, {
 				"title": "Visual Studio Code",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/DonJayamanne/pythonVSCode",
 					"name":"pythonVSCode",
 					"description":"This extension is now maintained in the Microsoft fork"
@@ -1278,7 +1278,7 @@
 				}]
 			}, {
 				"title": "IDE",
-				"items": [{
+				"children": [{
 					"url": "http://www.liclipse.com/",
 					"name": "LiClipse",
 					"description": "Free polyglot IDE based on Eclipse. Uses PyDev for Python support."
@@ -1295,7 +1295,7 @@
 		}, {
 			"title": "Email",
 			"description": "Libraries for sending and parsing email.",
-			"items": [{
+			"children": [{
 				"url": "http://tomekwojcik.github.io/envelopes",
 				"name": "envelopes",
 				"description": "Mailing for human beings."
@@ -1335,7 +1335,7 @@
 		}, {
 			"title": "Environment Management",
 			"description": "Libraries for Python version and environment management.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/kennethreitz/pipenv",
 				"name":"pipenv",
 				"description":"Python Development Workflow for Humans"
@@ -1363,7 +1363,7 @@
 		}, {
 			"title": "Files",
 			"description": "Libraries for file manipulation and MIME type detection.",
-			"items": [{
+			"children": [{
 				"url": "https://docs.python.org/3/library/mimetypes.html",
 				"name": "mimetypes",
 				"description": "(Python standard library) Map filenames to MIME types."
@@ -1395,7 +1395,7 @@
 		}, {
 			"title": "Foreign Function Interface",
 			"description": "Libraries for providing foreign function interface.",
-			"items": [{
+			"children": [{
 				"url": "https://pypi.python.org/pypi/cffi",
 				"name": "cffi",
 				"description": "Foreign Function Interface for Python calling C code."
@@ -1415,7 +1415,7 @@
 		}, {
 			"title": "Forms",
 			"description": "Libraries for working with forms.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/Pylons/deform",
 				"name":"deform",
 				"description":"A Python HTML form library"
@@ -1439,7 +1439,7 @@
 		}, {
 			"title": "Functional Programming",
 			"description": "Functional Programming with Python.",
-			"items": [{
+			"children": [{
 				"url": "http://coconut-lang.org/",
 				"name": "Coconut",
 				"description": "Coconut is a variant of Python built for simple, elegant, Pythonic functional programming."
@@ -1463,7 +1463,7 @@
 		}, {
 			"title": "GUI",
 			"description": "Libraries for working with graphical user interface applications.",
-			"items": [{
+			"children": [{
 				"url": "https://docs.python.org/3/library/curses.html",
 				"name": "curses",
 				"description": "Built-in wrapper for [ncurses](http://www.gnu.org/software/ncurses/) used to create terminal GUI applications."
@@ -1527,7 +1527,7 @@
 		}, {
 			"title": "Game Development",
 			"description": "Awesome game development libraries.",
-			"items": [{
+			"children": [{
 				"url": "http://cocos2d.org/",
 				"name": "Cocos2d",
 				"description": "cocos2d is a framework for building 2D games, demos, and other graphical/interactive applications. It is based on pyglet."
@@ -1559,7 +1559,7 @@
 		}, {
 			"title": "Geolocation",
 			"description": "Libraries for geocoding addresses and working with latitudes and longitudes.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/SmileyChris/django-countries",
 				"name":"django-countries",
 				"description":"A Django application that provides country choices for use with forms, flag icons static files, and a country field for models"
@@ -1587,7 +1587,7 @@
 		}, {
 			"title": "HTML Manipulation",
 			"description": "Libraries for working with HTML and XML.",
-			"items": [{
+			"children": [{
 				"url": "https://www.crummy.com/software/BeautifulSoup/bs4/doc/",
 				"name": "BeautifulSoup",
 				"description": "Providing Pythonic idioms for iterating, searching, and modifying HTML or XML."
@@ -1635,7 +1635,7 @@
 		}, {
 			"title": "HTTP",
 			"description": "Libraries for working with HTTP.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/kennethreitz/grequests",
 				"name":"grequests",
 				"description":"Requests + Gevent = <3"
@@ -1659,7 +1659,7 @@
 		}, {
 			"title": "Hardware",
 			"description": "Libraries for programming with hardware.",
-			"items": [{
+			"children": [{
 				"url": "http://inotool.org/",
 				"name": "ino",
 				"description": "Command line toolkit for working with [Arduino](https://www.arduino.cc/)."
@@ -1691,7 +1691,7 @@
 		}, {
 			"title": "Image Processing",
 			"description": "Libraries for manipulating images.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/rossgoodwin/hmap",
 				"name":"hmap",
 				"description":"Image histogram remapping"
@@ -1743,7 +1743,7 @@
 		}, {
 			"title": "Implementations",
 			"description": "Implementations of Python.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/metawilm/cl-python",
 				"name":"cl-python",
 				"description":"An implementation of Python in Common Lisp"
@@ -1803,7 +1803,7 @@
 		}, {
 			"title": "Interactive Interpreter",
 			"description": "Interactive Python interpreters (REPL).",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/bpython/bpython",
 				"name":"bpython",
 				"description":"A fancy curses interface to the Python interactive interpreter"
@@ -1823,7 +1823,7 @@
 		}, {
 			"title": "Internationalization",
 			"description": "Libraries for working with i18n.",
-			"items": [{
+			"children": [{
 				"url": "http://babel.pocoo.org/en/latest/",
 				"name": "Babel",
 				"description": "An internationalization library for Python."
@@ -1835,7 +1835,7 @@
 		}, {
 			"title": "Job Scheduler",
 			"description": "Libraries for scheduling jobs.",
-			"items": [{
+			"children": [{
 				"url": "http://apscheduler.readthedocs.io/en/latest/",
 				"name": "APScheduler",
 				"description": "A light but powerful in-process task scheduler that lets you schedule functions."
@@ -1875,7 +1875,7 @@
 		}, {
 			"title": "Logging",
 			"description": "Libraries for generating and working with logs.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/ScatterHQ/eliot",
 				"name":"eliot",
 				"description":"Eliot: the logging system that tells you why it happened"
@@ -1895,7 +1895,7 @@
 		}, {
 			"title": "Machine Learning",
 			"description": "Libraries for Machine Learning. See: [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning#python).",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/h2oai/h2o-3",
 				"name":"h2o-3",
 				"description":"Open Source Fast Scalable Machine Learning Platform For Smarter Applications (Deep Learning, Gradient Boosting, Random Forest, Generalized Linear Modeling (Logistic Regression, Elastic Net), K-Means, PCA, Stacked Ensembles, Automatic Machine Learning (AutoML), ...)"
@@ -1927,7 +1927,7 @@
 		}, {
 			"title": "Microsoft Windows",
 			"description": "Python programming on Microsoft Windows.",
-			"items": [{
+			"children": [{
 				"url": "http://python-xy.github.io/",
 				"name": "Python(x,y)",
 				"description": "Scientific-applications-oriented Python Distribution based on Qt and Spyder."
@@ -1950,8 +1950,8 @@
 			}]
 		}, {
 			"title": "Miscellaneous",
-			"description": "Useful libraries or tools that don't fit in the categories above.",
-			"items": [{
+			"description": "Useful libraries or tools that don't fit in the children above.",
+			"children": [{
 				"url": "https://github.com/jek/blinker",
 				"name":"blinker",
 				"description":"A fast Python in-process signal/event dispatching system"
@@ -1975,7 +1975,7 @@
 		}, {
 			"title": "Natural Language Processing",
 			"description": "Libraries for working with human languages.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/RaRe-Technologies/gensim",
 				"name":"genism",
 				"description":"Topic Modelling for Humans"
@@ -2019,7 +2019,7 @@
 		}, {
 			"title": "Network Virtualization",
 			"description": "Tools and libraries for Virtual Networking and SDN (Software Defined Networking).",
-			"items": [{
+			"children": [{
 				"url": "http://mininet.org/",
 				"name": "Mininet",
 				"description": "A popular network emulator and API written in Python."
@@ -2035,7 +2035,7 @@
 		}, {
 			"title": "Networking",
 			"description": "Libraries for networking programming.",
-			"items": [{
+			"children": [{
 				"url": "https://docs.python.org/3/library/asyncio.html",
 				"name": "asyncio",
 				"description": "(Python standard library) Asynchronous I/O, event loop, coroutines and tasks."
@@ -2071,7 +2071,7 @@
 		}, {
 			"title": "News Feed",
 			"description": "Libraries for building user's activities.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/justquick/django-activity-stream",
 				"name":"django-activity-stream",
 				"description":"Generate generic activity streams from the actions on your site. Users can follow any actors' activities for personalized streams"
@@ -2083,9 +2083,9 @@
 		}, {
 			"title": "ORM",
 			"description": "Libraries that implement Object-Relational Mapping or data mapping techniques.",
-			"categories": [{
+			"children": [{
 				"title": "Relational Databases",
-				"items": [{
+				"children": [{
 					"url": "https://docs.djangoproject.com/en/dev/topics/db/models/",
 					"name": "Django Models",
 					"description": "A part of Django."
@@ -2120,7 +2120,7 @@
 				}]
 			}, {
 				"title": "NoSQL Databases",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/django-nonrel/mongodb-engine",
 					"name":"mongodb-engine",
 					"description":"Django MongoDB Backend"
@@ -2147,7 +2147,7 @@
 				}]
 			}, {
 				"title": "Others",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/terrible-ideas/butterdb",
 					"name":"butterdb",
 					"description":"butterdb is a Python object mapper for Google Drive Spreadsheets. Still in development, but usable"
@@ -2160,7 +2160,7 @@
 		}, {
 			"title": "Package Management",
 			"description": "Libraries for package and dependency management.",
-			"items": [{
+			"children": [{
 				"url": "https://pip.pypa.io/en/stable/",
 				"name": "pip",
 				"description": "The Python package and dependency manager [Python Package Index](https://pypi.python.org/pypi)."
@@ -2184,7 +2184,7 @@
 		}, {
 			"title": "Package Repositories",
 			"description": "Local PyPI repository server and proxies.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/pypa/warehouse",
 				"name":"warehouse",
 				"description":"The Python Package Repository"
@@ -2204,7 +2204,7 @@
 		}, {
 			"title": "Permissions",
 			"description": "Libraries that allow or deny users access to data or functionality.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/neuman/python-carteblanche",
 				"name":"python-carteblanche",
 				"description":"Module to align code with thoughts of users and designers. Also magically handles navigation and permissions"
@@ -2220,7 +2220,7 @@
 		}, {
 			"title": "Processes",
 			"description": "Libraries for starting and communicating with OS processes.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/kennethreitz/delegator.py",
 				"name":"delegator.py",
 				"description":"Subprocesses for Humans 2.0."
@@ -2236,7 +2236,7 @@
 		}, {
 			"title": "Queue",
 			"description": "Libraries for working with event and task queues.",
-			"items": [{
+			"children": [{
 				"url": "http://www.celeryproject.org/",
 				"name": "celery",
 				"description": "An asynchronous task queue/job queue based on distributed message passing."
@@ -2260,7 +2260,7 @@
 		}, {
 			"title": "Recommender Systems",
 			"description": "Libraries for building recommender systems.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/spotify/annoy",
 				"name":"annoy",
 				"description":"Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk"
@@ -2296,9 +2296,9 @@
 		}, {
 			"title": "RESTful API",
 			"description": "Libraries for developing RESTful APIs.",
-			"categories": [{
+			"children": [{
 				"title": "Django",
-				"items": [{
+				"children": [{
 					"url": "http://www.django-rest-framework.org/",
 					"name": "django-rest-framework",
 					"description": "A powerful and flexible toolkit to build web APIs."
@@ -2309,7 +2309,7 @@
 				}]
 			}, {
 				"title": "Flask",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/pyeve/eve",
 					"name":"eve",
 					"description":"REST API framework designed for human beings"
@@ -2332,14 +2332,14 @@
 				}]
 			}, {
 				"title": "Pyramid",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/Cornices/cornice",
 					"name":"cornice",
 					"description":"Build Web Services with Pyramid"
 				}]
 			}, {
 				"title": "Framework agnostic",
-				"items": [{
+				"children": [{
 					"url": "http://falconframework.org/",
 					"name": "falcon",
 					"description": "A high-performance framework for building cloud APIs and web app backends."
@@ -2368,7 +2368,7 @@
 		}, {
 			"title": "Robotics",
 			"description": "Libraries for robotics.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/AtsushiSakai/PythonRobotics",
 				"name":"PythonRobotics",
 				"description":"Python sample codes for robotics algorithms"
@@ -2380,7 +2380,7 @@
 		}, {
 			"title": "RPC Servers",
 			"description": "RPC-compatible servers",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/joshmarshall/jsonrpclib",
 				"name":"jsonrpclib",
 				"description":"A Python JSON-RPC over HTTP that mirrors xmlrpclib syntax"
@@ -2396,7 +2396,7 @@
 		}, {
 			"title": "Science",
 			"description": "Libraries for scientific computing.",
-			"items": [{
+			"children": [{
 				"url": "http://www.astropy.org/",
 				"name": "astropy",
 				"description": "A community Python library for Astronomy."
@@ -2480,7 +2480,7 @@
 		}, {
 			"title": "Search",
 			"description": "Libraries and software for indexing and performing search queries on data.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/django-haystack/django-haystack",
 				"name":"django-haystack",
 				"description":"Modular search for Django"
@@ -2512,7 +2512,7 @@
 		}, {
 			"title": "Serialization",
 			"description": "Libraries for serializing complex data types",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/marshmallow-code/marshmallow",
 				"name":"marshmallow",
 				"description":"A lightweight library for converting complex objects to and from simple Python datatypes"
@@ -2520,7 +2520,7 @@
 		}, {
 			"title": "Serverless Frameworks",
 			"description": "Frameworks for developing serverless Python code.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/apex/apex",
 				"name":"apex",
 				"description":"Build, deploy, and manage AWS Lambda functions with ease"
@@ -2536,16 +2536,16 @@
 		}, {
 			"title": "Specific Formats Processing",
 			"description": "Libraries for parsing and manipulating specific text formats.",
-			"categories": [{
+			"children": [{
 				"title": "General",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/kennethreitz/tablib",
 					"name":"tablib",
 					"description":"Python Module for Tabular Datasets in XLS, CSV, JSON, YAML, &c"
 				}]
 			}, {
 				"title": "Office",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/brianray/mm",
 					"name":"mm",
 					"description":"Python powered spreadsheets"
@@ -2588,7 +2588,7 @@
 				}]
 			}, {
 				"title": "PDF",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/euske/pdfminer",
 					"name":"pdfminer",
 					"description":"Python PDF Parser"
@@ -2603,7 +2603,7 @@
 				}]
 			}, {
 				"title": "Markdown",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/lepture/mistune",
 					"name":"mistune",
 					"description":"The fastest markdown parser in pure Python with renderer feature"
@@ -2614,21 +2614,21 @@
 				}]
 			}, {
 				"title": "YAML",
-				"items": [{
+				"children": [{
 					"url": "http://pyyaml.org/",
 					"name": "PyYAML",
 					"description": "YAML implementations for Python."
 				}]
 			}, {
 				"title": "CSV",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/wireservice/csvkit",
 					"name":"csvkit",
 					"description":"A suite of utilities for converting to and working with CSV, the king of tabular file formats"
 				}]
 			}, {
 				"title": "Archive",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/mitsuhiko/unp",
 					"name":"unp",
 					"description":"Unpacks things"
@@ -2637,7 +2637,7 @@
 		}, {
 			"title": "Static Site Generator",
 			"description": "Static site generator is a software that takes some text + templates as input and produces HTML files on the output.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/eudicots/Cactus",
 				"name":"Cactus",
 				"description":"Static site generator for designers. Uses Python and Django templates"
@@ -2664,8 +2664,8 @@
 			}]
 		}, {
 			"title": "Tagging",
-			"description": "Libraries for tagging items.",
-			"items": [{
+			"description": "Libraries for tagging children.",
+			"children": [{
 				"url": "https://github.com/alex/django-taggit",
 				"name":"django-taggit",
 				"description":"Simple tagging for django"
@@ -2673,7 +2673,7 @@
 		}, {
 			"title": "Template Engine",
 			"description": "Libraries and tools for templating and lexing.",
-			"items": [{
+			"children": [{
 				"url": "https://genshi.edgewall.org/",
 				"name": "Genshi",
 				"description": "Python templating toolkit for generation of web-aware output."
@@ -2689,9 +2689,9 @@
 		}, {
 			"title": "Testing",
 			"description": "Libraries for testing codebases and generating test data.",
-			"categories": [{
+			"children": [{
 				"title": "Testing Frameworks",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/HypothesisWorks/hypothesis",
 					"name":"hypothesis",
 					"description":"Hypothesis is a powerful, flexible, and easy to use library for property-based testing"
@@ -2722,7 +2722,7 @@
 				}]
 			}, {
 				"title": "Test Runners",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/CleanCut/green",
 					"name":"green",
 					"description":"Green is a clean, colorful, fast python test runner"
@@ -2733,7 +2733,7 @@
 				}]
 			}, {
 				"title": "GUI / Web Testing",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/locustio/locust",
 					"name":"locust",
 					"description":"Scalable user load testing tool written in Python"
@@ -2756,7 +2756,7 @@
 				}]
 			}, {
 				"title": "Mock",
-				"items": [{
+				"children": [{
 					"url": "https://pypi.python.org/pypi/doublex",
 					"name": "doublex",
 					"description": "Powerful test doubles framework for Python."
@@ -2791,7 +2791,7 @@
 				}]
 			}, {
 				"title": "Object Factories",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/FactoryBoy/factory_boy",
 					"name":"factory_boy",
 					"description":"A test fixtures replacement for Python"
@@ -2806,14 +2806,14 @@
 				}]
 			}, {
 				"title": "Code Coverage",
-				"items": [{
+				"children": [{
 					"url": "https://pypi.python.org/pypi/coverage",
 					"name": "coverage",
 					"description": "Code coverage measurement."
 				}]
 			}, {
 				"title": "Fake Data",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/lk-geimfari/mimesis",
 					"name":"mimesisMimesis is fast and extremely easy to use Python package, which helps generate big volumes of fake data for a variety of purposes in a variety of languages",
 					"description":""
@@ -2832,7 +2832,7 @@
 				}]
 			}, {
 				"title": "Error Handler",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/ajalt/fuckitpy",
 					"name":"fuckitpy",
 					"description":"The Python error steamroller"
@@ -2841,9 +2841,9 @@
 		}, {
 			"title": "Text Processing",
 			"description": "Libraries for parsing and manipulating plain texts.",
-			"categories": [{
+			"children": [{
 				"title": "General",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/chardet/chardet",
 					"name":"chardet",
 					"description":"Python 2/3 compatible character encoding detector"
@@ -2902,7 +2902,7 @@
 				}]
 			}, {
 				"title": "Slugify",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/dimka665/awesome-slugify",
 					"name":"awesome-slugify",
 					"description":"Python flexible slugify function"
@@ -2917,7 +2917,7 @@
 				}]
 			}, {
 				"title": "Parser",
-				"items": [{
+				"children": [{
 					"url": "https://github.com/daviddrysdale/python-phonenumbers",
 					"name":"python-phonenumbers",
 					"description":"Python port of Google's libphonenumber"
@@ -2950,7 +2950,7 @@
 		}, {
 			"title": "Third-party APIs",
 			"description": "Libraries for accessing third party services APIs. See: [List of Python API Wrappers and Libraries](https://github.com/realpython/list-of-python-api-wrappers).",
-			"items": [{
+			"children": [{
 				"url": "https://libcloud.apache.org/",
 				"name": "apache-libcloud",
 				"description": "One Python library for all clouds."
@@ -2990,7 +2990,7 @@
 		}, {
 			"title": "URL Manipulation",
 			"description": "Libraries for parsing URLs.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/gruns/furl",
 				"name":"furl",
 				"description":"URL parsing and manipulation made easy"
@@ -3014,7 +3014,7 @@
 		}, {
 			"title": "Video",
 			"description": "Libraries for manipulating video and GIFs.",
-			"items": [{
+			"children": [{
 				"url": "http://zulko.github.io/moviepy/",
 				"name": "moviepy",
 				"description": "A module for script-based movie editing with many formats, including animated GIFs."
@@ -3026,7 +3026,7 @@
 		}, {
 			"title": "WSGI Servers",
 			"description": "WSGI-compatible web servers.",
-			"items": [{
+			"children": [{
 				"url": "https://pypi.python.org/pypi/bjoern",
 				"name": "bjoern",
 				"description": "Asynchronous, very fast and written in C."
@@ -3066,7 +3066,7 @@
 		}, {
 			"title": "Web Content Extracting",
 			"description": "Libraries for extracting web contents.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/vinta/Haul",
 				"name":"Haul",
 				"description":"An Extensible Image Crawler"
@@ -3118,7 +3118,7 @@
 		}, {
 			"title": "Web Crawling & Web Scraping",
 			"description": "Libraries to automate data extraction from websites.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/chineking/cola",
 				"name":"cola",
 				"description":"A high-level distributed crawling framework"
@@ -3158,7 +3158,7 @@
 		}, {
 			"title": "Web Frameworks",
 			"description": "Full stack web frameworks.",
-			"items": [{
+			"children": [{
 				"url": "https://www.djangoproject.com/",
 				"name": "Django",
 				"description": "The most popular web framework in Python."
@@ -3198,7 +3198,7 @@
 		}, {
 			"title": "WebSocket",
 			"description": "Libraries for working with WebSocket.",
-			"items": [{
+			"children": [{
 				"url": "https://github.com/crossbario/autobahn-python",
 				"name":"autobahn-python",
 				"description":"WebSocket and WAMP in Python for Twisted and asyncio"
@@ -3223,10 +3223,10 @@
 	}, {
 		"title": "Services",
 		"description": "Online tools and APIs to simplify development.",
-		"categories": [{
+		"children": [{
 			"title": "Continuous Integration",
 			"description": "Online build release system",
-			"items": [{
+			"children": [{
 				"url": "https://circleci.com/",
 				"name": "CircleCI",
 				"description": "A CI service that can run very fast parallel testing. (GitHub only)"
@@ -3245,7 +3245,7 @@
 			}]
 		}, {
 			"title": "Code Quality",
-			"items": [{
+			"children": [{
 				"url": "https://www.codacy.com/",
 				"name": "Codacy",
 				"description": "Automated Code Review to ship better code, faster."
@@ -3266,9 +3266,9 @@
 	}, {
 		"title": "Resources",
 		"description": "Where to discover new Python libraries.",
-		"categories": [{
+		"children": [{
 			"title": "Podcasts",
-			"items": [{
+			"children": [{
 				"url": "http://frompythonimportpodcast.com/",
 				"name": "From Python Import Podcast"
 			}, {
@@ -3289,7 +3289,7 @@
 			}]
 		}, {
 			"title": "Twitter",
-			"items": [{
+			"children": [{
 				"url": "https://twitter.com/codetengu",
 				"name": "@codetengu"
 			}, {
@@ -3322,7 +3322,7 @@
 			}]
 		}, {
 			"title": "Websites",
-			"items": [{
+			"children": [{
 				"url": "https://www.reddit.com/r/coolgithubprojects/",
 				"name": "/r/CoolGithubProjects"
 			}, {
@@ -3361,7 +3361,7 @@
 			}]
 		}, {
 			"title": "Weekly",
-			"items": [{
+			"children": [{
 				"url": "https://weekly.codetengu.com/",
 				"name": "CodeTengu Weekly 碼天狗週刊"
 			}, {
