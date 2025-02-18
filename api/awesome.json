@@ -1,5 +1,15 @@
 [
   {
+    "title": "python",
+    "url": "/awesome/python",
+    "description": "A curated list of awesome Python frameworks, libraries, software and resources "
+  },
+  {
+    "title": "go",
+    "url": "/awesome/go",
+    "description": "A curated list of awesome Go frameworks, libraries and software "
+  },
+  {
     "title": " wasabeef/awesome-android-ui ",
     "url": "https://github.com/wasabeef/awesome-android-ui",
     "description": "A curated list of awesome Android UI/UX libraries "
@@ -8,16 +18,6 @@
     "title": " akullpp/awesome-java ",
     "url": "https://github.com/akullpp/awesome-java",
     "description": "A curated list of awesome Java frameworks, libraries and software. "
-  },
-  {
-    "title": " avelino/awesome-go ",
-    "url": "https://github.com/avelino/awesome-go",
-    "description": "A curated list of awesome Go frameworks, libraries and software "
-  },
-  {
-    "title": " vinta/awesome-python ",
-    "url": "https://github.com/vinta/awesome-python",
-    "description": "A curated list of awesome Python frameworks, libraries, software and resources "
   },
   {
     "title": " willianjusten/awesome-svg ",
