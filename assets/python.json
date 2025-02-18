@@ -2815,8 +2815,8 @@
 				"title": "Fake Data",
 				"children": [{
 					"url": "https://github.com/lk-geimfari/mimesis",
-					"name":"mimesisMimesis is fast and extremely easy to use Python package, which helps generate big volumes of fake data for a variety of purposes in a variety of languages",
-					"description":""
+					"name":"mimesis",
+					"description":"Mimesis is fast and extremely easy to use Python package, which helps generate big volumes of fake data for a variety of purposes in a variety of languages"
 				}, {
 					"url": "https://github.com/emirozer/fake2db",
 					"name":"fake2d",
