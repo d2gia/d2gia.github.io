@@ -3291,34 +3291,34 @@
 			"title": "Twitter",
 			"children": [{
 				"url": "https://twitter.com/codetengu",
-				"name": "@codetengu"
+				"name": "codetengu"
 			}, {
 				"url": "https://twitter.com/getpy",
-				"name": "@getpy"
+				"name": "getpy"
 			}, {
 				"url": "https://twitter.com/importpython",
-				"name": "@importpython"
+				"name": "importpython"
 			}, {
 				"url": "https://twitter.com/planetpython",
-				"name": "@planetpython"
+				"name": "planetpython"
 			}, {
 				"url": "https://twitter.com/pycoders",
-				"name": "@pycoders"
+				"name": "pycoders"
 			}, {
 				"url": "https://twitter.com/pypi",
-				"name": "@pypi"
+				"name": "pypi"
 			}, {
 				"url": "https://twitter.com/pythontrending",
-				"name": "@pythontrending"
+				"name": "pythontrending"
 			}, {
 				"url": "https://twitter.com/PythonWeekly",
-				"name": "@PythonWeekly"
+				"name": "PythonWeekly"
 			}, {
 				"url": "https://twitter.com/talkpython",
-				"name": "@TalkPython"
+				"name": "TalkPython"
 			}, {
 				"url": "https://twitter.com/realpython",
-				"name": "@realpython"
+				"name": "realpython"
 			}]
 		}, {
 			"title": "Websites",
@@ -3330,7 +3330,7 @@
 				"name": "/r/Python"
 			}, {
 				"url": "https://python.libhunt.com/",
-				"name": "Awesome Python @LibHunt"
+				"name": "Awesome Python LibHunt"
 			}, {
 				"url": "https://djangopackages.org/",
 				"name": "Django Packages"
